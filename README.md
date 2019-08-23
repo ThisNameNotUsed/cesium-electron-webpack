@@ -4,6 +4,6 @@ This is just the Cesium starter stuff injected into the electron-webpack-quickst
 
 
 
-*electron-webpack-quickstart found here: https://github.com/electron-userland/electron-webpack-quick-start
-*cesium webpack tutorial: https://cesium.com/docs/tutorials/cesium-and-webpack/
+* electron-webpack-quickstart found here: https://github.com/electron-userland/electron-webpack-quick-start
+* cesium webpack tutorial: https://cesium.com/docs/tutorials/cesium-and-webpack/
 
