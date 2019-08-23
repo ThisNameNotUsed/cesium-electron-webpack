@@ -1,5 +1,5 @@
 # cesium-electron-webpack
-This is just Cesium injected into the electron-webpack-quickstart package using the the Cesium webpack tutorial (sort of). It's nothing fancy but if your new/rusty to Electron or Webpack or Electron-Webpack it might save you a little time.
+This is just the Cesium starter stuff injected into the electron-webpack-quickstart package using the the Cesium webpack tutorial (sort of). Were using it for a starting point and a coder's playground while begining a new Cesium based desktop app. It's nothing fancy but if your new/rusty to Electron or Webpack or Electron-Webpack it might save you a little time.
 
 
 
