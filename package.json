@@ -1,0 +1,27 @@
+{
+  "name": "cesium-electron-webpack",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron-webpack dev",
+    "compile": "electron-webpack",
+    "dist": "yarn compile && electron-builder",
+    "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.12"
+  },
+  "devDependencies": {
+    "cesium": "^1.60.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "electron": "5.0.6",
+    "electron-builder": "^21.0.11",
+    "electron-webpack": "^2.7.4",
+    "webpack": "~4.35.3"
+  },
+  "electronWebpack":{
+    "renderer": {
+      "webpackConfig": "webpack.renderer.additions.js"
+    }
+  }
+}
