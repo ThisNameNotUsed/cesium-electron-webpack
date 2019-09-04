@@ -8,7 +8,7 @@ This is just the Cesium starter stuff injected into the electron-webpack-quickst
 * cesium webpack tutorial: https://cesium.com/docs/tutorials/cesium-and-webpack/
 
 
-You'll have to comment out C:\Users\OPS\source\repos\cesium-playground\node_modules\cesium\Source\Widgets\Timeline\Timeline.css Line 101:
+You'll have to comment out \node_modules\cesium\Source\Widgets\Timeline\Timeline.css Line 101:
 
 *background-image: url("../Images/TimelineIcons.png");*
 
