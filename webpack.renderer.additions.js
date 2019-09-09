@@ -10,7 +10,13 @@ const CopywebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
     context: __dirname,
     module: {
-        unknownContextCritical: false
+        unknownContextCritical: false,
+        rules: [
+            {
+                test: /\.(glb|gltf|dae)$/,
+                use: 'url-loader'
+            }
+        ] 
     },
     output: {
             // Needed to compile multiline strings in Cesium
