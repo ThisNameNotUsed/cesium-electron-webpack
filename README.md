@@ -12,4 +12,4 @@ You'll have to comment out \node_modules\cesium\Source\Widgets\Timeline\Timeline
 
 *background-image: url("../Images/TimelineIcons.png");*
 
-Cesium's hello world includes a bunch of images that aren't included in it's NPM package and this particular line breaks the build.
+Cesium's hello world includes a bunch of images that aren't included in it's NPM package and this particular line breaks the build. I'll find a not-so-dumb work around as soon as possible.
