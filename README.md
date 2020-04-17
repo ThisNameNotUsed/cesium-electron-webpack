@@ -9,7 +9,7 @@ This is just the Cesium starter stuff injected into the electron-webpack-quickst
 
 
 
-<h2>How to start it up<h2>
+## How to start it up
   
 1. You'll have to comment out \node_modules\cesium\Source\Widgets\Timeline\Timeline.css Line 101:
 *background-image: url("../Images/TimelineIcons.png");*
