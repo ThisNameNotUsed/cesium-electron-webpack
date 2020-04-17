@@ -8,8 +8,13 @@ This is just the Cesium starter stuff injected into the electron-webpack-quickst
 * cesium webpack tutorial: https://cesium.com/docs/tutorials/cesium-and-webpack/
 
 
-You'll have to comment out \node_modules\cesium\Source\Widgets\Timeline\Timeline.css Line 101:
 
+<h2>How to start it up<h2>
+  
+1. You'll have to comment out \node_modules\cesium\Source\Widgets\Timeline\Timeline.css Line 101:
 *background-image: url("../Images/TimelineIcons.png");*
-
 Cesium's hello world includes a bunch of images that aren't included in it's NPM package and this particular line breaks the build. I'll find a not-so-dumb work around as soon as possible.
+1. into console: yarn compile
+1. into console: yarn dev
+
+
