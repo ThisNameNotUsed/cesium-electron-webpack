@@ -9,10 +9,10 @@
     "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
   },
   "dependencies": {
+    "cesium": "^1.71.0",
     "source-map-support": "^0.5.12"
   },
   "devDependencies": {
-    "cesium": "^1.60.0",
     "copy-webpack-plugin": "^5.0.4",
     "electron": "5.0.6",
     "electron-builder": "^21.0.11",
